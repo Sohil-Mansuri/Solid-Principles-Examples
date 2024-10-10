@@ -1,0 +1,26 @@
+﻿
+
+
+
+
+First check Abstraction :
+
+New Requirement:
+
+1. In addition to salary, provide **stock options** to C-level employees.
+
+Task:
+
+- Create a new employee type.
+- Create a method to calculate stock options.
+
+ Problem:
+
+If you look at the problem section, we added `CalculateStock` to the `IEmployeeFinance` interface. 
+
+While it works fine for C-level employees, Full-time and Part-time employees don't need stock options, 
+which violates the Interface Segregation Principle (ISP).
+
+Solution:
+
+Create a separate interface for handling stock options to ensure that only relevant classes implement it, adhering to ISP.
