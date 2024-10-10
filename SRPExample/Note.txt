@@ -1,0 +1,25 @@
+﻿
+
+
+
+
+As you can see here, the `Employee` class has 3 methods: 
+
+- `CalculatePay`
+- `Save`
+- `ReportHours`
+
+The `Employee` class is handled by 3 different people: the CFO, CTO, and COO, which violates the Single Responsibility Principle (SRP)
+
+Additionally, the `Save` method is performing two tasks: 
+1. Saving the employee information into the database.
+2. Logging information. 
+
+If tomorrow the logging functionality changes, we would also have to modify the `Employee` class. This means the class has multiple reasons to change, 
+which further violates SRP.
+
+Solution:
+
+To follow SRP, our project should aim for loose coupling and high cohesion. 
+
+Each class should have one responsibility, and changes in one area should not impact unrelated parts of the system.
