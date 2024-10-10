@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSPExample", "LSPExample\LS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISPExample", "ISPExample\ISPExample.csproj", "{C67B52D7-8AEE-41E3-86E8-6AAF0B55EB6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIPExample", "DIPExample\DIPExample.csproj", "{5AC1AD43-9024-46F7-99ED-33C8D6B76876}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C67B52D7-8AEE-41E3-86E8-6AAF0B55EB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C67B52D7-8AEE-41E3-86E8-6AAF0B55EB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C67B52D7-8AEE-41E3-86E8-6AAF0B55EB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC1AD43-9024-46F7-99ED-33C8D6B76876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC1AD43-9024-46F7-99ED-33C8D6B76876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC1AD43-9024-46F7-99ED-33C8D6B76876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC1AD43-9024-46F7-99ED-33C8D6B76876}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
