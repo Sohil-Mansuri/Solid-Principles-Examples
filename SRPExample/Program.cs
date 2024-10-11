@@ -1,11 +1,17 @@
 ﻿
+using SRPExample.Problem;
+
 namespace SRPProblem
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var employ = new Employee();
+            employ.Save(employ);
+
+            Console.WriteLine("End");
+            Console.ReadKey();
         }
     }
 }

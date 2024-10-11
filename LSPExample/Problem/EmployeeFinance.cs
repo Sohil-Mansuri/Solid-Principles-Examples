@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace LSPExample.Problem
 {
+    /// <summary>
+    /// We have added Reward method in Finance because its realted to Finance (cohesion)
+    /// </summary>
     internal class EmployeeFinance
     {
         public virtual double CalculatePay(Employee employee)

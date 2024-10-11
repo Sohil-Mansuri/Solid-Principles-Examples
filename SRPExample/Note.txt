@@ -1,8 +1,4 @@
 ﻿
-
-
-
-
 As you can see here, the `Employee` class has 3 methods: 
 
 - `CalculatePay`

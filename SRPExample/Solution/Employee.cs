@@ -17,7 +17,7 @@ namespace SRPExample.Solution
             catch (Exception ex)
             {
 
-                // this is not correct to tightely couple with Logger Class it will be handle through DI later on
+                // this is not correct way, it is tightely couple with Logger Class it will be handle through DI later on so ignore for now
                 // we should avoid creating object with new keyword, becuase it get tightely coupled 
                 Loggger log = new();
                 log.LogError(ex.Message);

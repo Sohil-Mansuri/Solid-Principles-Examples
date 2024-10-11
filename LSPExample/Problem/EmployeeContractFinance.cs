@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace LSPExample.Problem
 {
+    /// <summary>
+    /// You can see problem here, now EmployeeContractFinance is not replacable by BaseClass EmployeeFinance
+    /// so Its Not follwing LSP
+    /// please check in solution section, How it is solved 
+    /// </summary>
     internal class EmployeeContractFinance : EmployeeFinance
     {
         public override double CalculatePay(Employee employee)

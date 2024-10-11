@@ -1,13 +1,10 @@
 ﻿
 
-
-
-
-First check Abstraction :
+First check Abstraction Section, How we Abstracted our previous code 
 
 New Requirement:
 
-1. In addition to salary, provide **stock options** to C-level employees.
+1. In addition to salary, provide stock options to C-level employees.
 
 Task:
 

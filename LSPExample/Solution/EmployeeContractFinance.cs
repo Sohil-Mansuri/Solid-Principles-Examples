@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace LSPExample.Solution
 {
+    /// <summary>
+    /// As you can see here how Contract Employee can get only reward
+    /// </summary>
     internal class EmployeeContractFinance : EmployeeReward
     {
         public override double CalculateReward(Employee employee)

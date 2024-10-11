@@ -1,19 +1,21 @@
 ﻿
 
-
-
  New Requirement:
 
 1. Calculate Reward for each employee based on their type.
-2. Change in Contractor Employee**:
-
+2. Change in Contractor Employee.
    Why?
    - The vendor company handles the contractor’s payroll, so the main company does not manage any payroll tasks.
    - However, the main company can still provide rewards.
 
 Problem:
 
-This approach violates the Liskov Substitution Principle (LSP). The child class (Contractor) is not replaceable by the parent class (Employee), and the child class is breaking the functionality of the parent class.
+This approach violates the Liskov Substitution Principle (LSP). The child class (Contractor) is not replaceable by the parent class (Employee), 
+and the child class is breaking the functionality of the parent class.
 
 Solution:
+
+check in solution section 
+
+Create Base classes of those methods which some child don't require 
 

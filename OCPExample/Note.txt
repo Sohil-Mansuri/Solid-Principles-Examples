@@ -1,12 +1,11 @@
 ﻿
 
-
 If we receive a requirement to add a pay scale based on employee type:
 
-- For **Full-time** employees: $10/hour
-- For **Part-time** employees: $5/hour
+- For Full-time employees: $10/hour
+- For Part-time employees: $5/hour
 
-Obvious Implementation Issue:
+Obvious Implementation (check in problem section) Issue:
 
 The issue with this approach is that if a new employee type, such as Contract, 
 is introduced, we will have to update the `CalculatePay` method again. This will lead to:
@@ -14,8 +13,8 @@ is introduced, we will have to update the `CalculatePay` method again. This will
 - Modifying the existing method.
 - Re-testing the entire method due to the changes.
 
-This violates the **Open/Closed Principle (OCP)**, because the code is open for modification rather than being closed to changes.
+This violates the Open/Closed Principle (OCP), because the code is open for modification rather than being closed to changes.
 
 Solution:
 
-We can solve this by using **inheritance** and **polymorphism**, allowing us to extend the functionality without modifying the existing `CalculatePay` method.
+We can solve this by using inheritance and polymorphism, allowing us to extend the functionality without modifying the existing `CalculatePay` method.
