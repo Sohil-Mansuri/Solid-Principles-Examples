@@ -23,9 +23,7 @@ namespace DIPExample
             if (isFileLoggingEnabled)
                 container.RegisterType<ILogger, FileLogger>();
             else
-            {
                 container.RegisterType<ILogger, DBLogger>();
-            }
 
             return container;
         }
